@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Figur.image=1.png
-class.MyWorld.image=Screenshot_2020-12-15\ gohomevorlage\ pdf.png
+class.MyWorld.image=vorlage_debug.png
+dependency1.from=MyWorld
+dependency1.to=Figur
+dependency1.type=UsesDependency
 editor.fx.0.height=737
 editor.fx.0.width=814
-editor.fx.0.x=202
-editor.fx.0.y=32
+editor.fx.0.x=344
+editor.fx.0.y=0
 height=838
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
