@@ -13,4 +13,7 @@ WIE IST DAS PROJEKT ZU STARTEN:
 AUTOR(EN):
 BENUTZERHINWEISE:
 
-ein Teil der SPiellogik ist bereits implementiert.
+
+es wurde eine verbesserte Spiellogik implementiert und ein standalone des Spiels geschaffen. das standalone nutzt eine abstrahierte stack-klasse und gameobject-klasse
+
+die bluej-version ist nicht mehr aktuell, jene im unterfolder schon

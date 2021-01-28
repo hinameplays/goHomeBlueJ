@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.target=Spiel
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Spiel.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
 comment1.params=
-comment1.target=Spiel()
+comment1.target=Game()
 comment2.params=
 comment2.target=void\ betrachteNaechsteKarte()
 comment3.params=
@@ -11,4 +10,8 @@ comment4.params=
 comment4.target=void\ wegwerfen()
 comment5.params=
 comment5.target=void\ auswerten()
-numComments=6
+comment6.params=
+comment6.target=int\ spielen()
+comment7.params=
+comment7.target=Spiel()
+numComments=8

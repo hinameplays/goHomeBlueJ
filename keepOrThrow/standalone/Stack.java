@@ -1,30 +1,29 @@
-
 /**
- * Beschreiben Sie hier die Klasse Stapel.
+ * Library class to implement basic stack functionality myself
  * 
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Stapel
+public class Stack
 {
-    private Karte t;
+    private GameObject t;
     
     public Boolean isEmpty() {
         return (t==null) ? true : false;
     }
 
-    public Karte top() {
+    public GameObject top() {
         return this.t;
     }
     
-    public void push(Karte k) {
+    public void push(GameObject k) {
         if (!this.isEmpty()) k.next = this.t;
         this.t = k;        
     }
     
-    public Karte pop() {
+    public GameObject pop() {
         if (!this.isEmpty()) {
-            Karte k = this.t;
+            GameObject k = this.t;
             this.t = this.t.next;
             k.next = null;
             return k;
@@ -34,11 +33,11 @@ public class Stapel
     }
     
     public int getLength() {
-        Stapel temp = new Stapel();
+        Stack temp = new Stack();
         int i = 0;
         
         while (!this.isEmpty()) {
-            Karte n = this.pop();
+            GameObject n = this.pop();
             i++;
             temp.push(n);
         }

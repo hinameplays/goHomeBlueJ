@@ -5,22 +5,17 @@ import java.util.Random;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class Karte
-{
-    private int wert;
-    public Karte next;
-    
+public class Karte extends GameObject {
+
     public Karte() {
         // Instanzvariable initialisieren
+        super(-1);
         Random r = new Random();
-        this.wert = r.nextInt(10);
+        this.setWert(r.nextInt(10));
     }
-    
-    public Karte (int x) {
-        this.wert = x;
-    }
-    
-    public int getWert() {
-        return this.wert;
-    }
+
+	public Karte(int u) {
+        super(u);
+	}
 }
+    
