@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Testprogramm",
+            "request": "launch",
+            "mainClass": "Testprogramm",
+            "projectName": "goHomeBlueJ_e078984b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Liste
+comment1.params=o
+comment1.target=void\ anhaengen(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.Object\ getEnde()
+comment3.params=i
+comment3.target=Liste.Listenelement\ get(int)
+comment4.params=
+comment4.target=int\ getLength()
+numComments=5
